@@ -1,0 +1,44 @@
+
+### Route: /imc
+
+### 1 - GET root route
+GET http://localhost:3000/
+
+### 2 - GET table from imc
+GET http://localhost:3000/imc/table
+
+### 3 - GET translate from IMC value
+GET http://localhost:3000/imc/translate/20
+
+### 4 - POST calculate IMC
+POST http://localhost:3000/imc/calculate
+Content-Type: application/json
+
+{ 
+  "weight": 70,
+  "height": 1.75
+}
+
+
+### Route: /users
+
+
+###  - GET exibe usuários fixados
+GET http://localhost:3000/users/User
+
+### 1 - POST Adiciona o usuário na memoria
+
+POST http://localhost:3000/users
+
+### 2 - Retorna usuários cadastrados
+
+GET http://localhost:3000/users
+
+### 3 - Retorna usuário específico
+
+GET http://localhost:3000/users/2
+
+### 4 - Deleta usuário
+
+DELETE http://localhost:3000/users/delete/2
+
