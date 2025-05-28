@@ -4,10 +4,10 @@ Projeto API - Development
 
 Participantes do grupo 1:
 
-Nome: Joao Victor Ribeiro Borges -> email: joao.rborges@aluno.faculdadeimpacta.com.br
+Nome: Joao Victor Ribeiro Borges   -> Email: joao.rborges@aluno.faculdadeimpacta.com.br
 
-Nome: Sandro Sousa -> email: sandro.sousa@aluno.faculdadeimpacta.com.br
+Nome: Sandro Sousa                 -> Email: sandro.sousa@aluno.faculdadeimpacta.com.br
 
-Nome: Guilherme Leite -> email: guilherme.mata@aluno.faculdadeimpacta.com.br
+Nome: Guilherme da Mata Leite      -> Email: guilherme.mata@aluno.faculdadeimpacta.com.br
 
-Nome: Deivid Vanancio -> email: deivid.venancio@aluno.faculdadeimpacta.com.br
+Nome: Deivid Ferreira Venancio     -> Email: deivid.venancio@aluno.faculdadeimpacta.com.br
