@@ -14,8 +14,8 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post()
-  create(@Body('name') name: string, @Body('email') email: string) {
-    return this.usersService.create(name, email);
+  createUsr(@Body('name') name: string, @Body('email') email: string) {
+    return this.usersService.createUsr(name, email);
   }
 
   @Get('User')
@@ -34,8 +34,8 @@ export class UsersController {
   }
 
   @Delete('delete/:id')
-  delete(@Param('id', ParseIntPipe) id: number) {
-    this.usersService.delete(id);
+  deleteUsr(@Param('id', ParseIntPipe) id: number) {
+    this.usersService.deleteUsr(id);
     return { message: `Usuário ID: ${id} deletado com sucesso` };
   }
 }

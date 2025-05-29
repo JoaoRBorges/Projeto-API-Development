@@ -6,7 +6,7 @@ export class UsersService {
   private users: User[] = [];
   private idCounter = 1;
 
-  create(name: string, email: string): User {
+  createUsr(name: string, email: string): User {
     const id = this.idCounter++;
     const newUser: User = {
       id,
@@ -29,7 +29,7 @@ export class UsersService {
     return user;
   }
 
-  delete(id: number): void {
+  deleteUsr(id: number): void {
     const index = this.users.findIndex((u) => u.id === id);
     if (index === -1) {
       throw new NotFoundException(`Usuário com o ID ${id} não encontrado`);
