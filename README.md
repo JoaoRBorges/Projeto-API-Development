@@ -2,6 +2,8 @@ Projeto Realizado em Node.js e NestJS
 
 Projeto API - Development
 
+• Crie uma API com nodeJS e nestJS que permita armazenar usuários (nome e e-mail), consultar todos os usuário, ler apenas um e excluir um usuário, usando como armazenamento apenas a memória.
+
 Participantes do grupo 1:
 
 Nome: Joao Victor Ribeiro Borges   -> Email: joao.rborges@aluno.faculdadeimpacta.com.br
